@@ -1,0 +1,70 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+
+.background-policy {
+    font-family: "Inter", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #f2f6ff;
+    text-align: left;
+}
+
+.privacy-title {
+    font-family: "Baloo 2", sans-serif;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 1.5;
+        text-align: center;
+        color: #ffd54f;
+        margin-top: 60px;
+        margin-bottom: 28px;
+}
+
+.text-span {
+    font-weight: 700;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-weight:700;
+    margin-top: 20px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 16px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 16px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1439px) {
+    .policy-container {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+        .header-container {
+            padding: 28px 180px;
+           }
+}
